@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Email-Manager-JDBC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Email-Manager-JDBC</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Email-Manager-JDBC-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Email-Manager-JDBC:war exploded" />
+    </root>
+  </artifact>
+</component>
